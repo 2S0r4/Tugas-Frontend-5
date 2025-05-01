@@ -1,17 +1,3 @@
-// async function fetchData() {
-//   try {
-//       const res = await fetch();
-//       const data = await res.json();
-
-      
-//       console.log(data)
-
-//   }
-//   catch (error) {
-//       console.log('error', error)
-//   }
-// }
-
 const ListUser = [
     {
       "id": 1,
@@ -19,7 +5,8 @@ const ListUser = [
       "name": "Agus Santoso",
       "location": "Cipayung, Jakarta Timur, DKI Jakarta, 13840",
       "number": "+62 812-3456-7890",
-      "contact": "81234567890"
+      "contact": "81234567890",
+      "status" : false,
     },
     {
       "id": 2,
@@ -27,7 +14,8 @@ const ListUser = [
       "name": "Maya Lestari",
       "location": "Tegalsari, Surabaya, Jawa Timur, 60262",
       "number": "+62 813-9876-5432",
-      "contact": "81398765432"
+      "contact": "81398765432",
+      "status" : true,
     },
     {
       "id": 3,
@@ -35,7 +23,8 @@ const ListUser = [
       "name": "Deni Pratama",
       "location": "Cimahi Tengah, Cimahi, Jawa Barat, 40521",
       "number": "+62 821-1122-3344",
-      "contact": "82111223344"
+      "contact": "82111223344",
+      "status" : false,
     },
     {
       "id": 4,
@@ -43,7 +32,8 @@ const ListUser = [
       "name": "Sari Andini",
       "location": "Gondokusuman, Yogyakarta, DI Yogyakarta, 55221",
       "number": "+62 822-2233-4455",
-      "contact": "82222334455"
+      "contact": "82222334455",
+      "status" : false,
     },
     {
       "id": 5,
@@ -51,7 +41,8 @@ const ListUser = [
       "name": "Bambang Wijaya",
       "location": "Panakkukang, Makassar, Sulawesi Selatan, 90231",
       "number": "+62 819-3344-5566",
-      "contact": "81933445566"
+      "contact": "81933445566",
+      "status" : false,
     },
     {
       "id": 6,
@@ -59,7 +50,8 @@ const ListUser = [
       "name": "Tiara Rahma",
       "location": "Pontianak Utara, Pontianak, Kalimantan Barat, 78123",
       "number": "+62 818-7788-9900",
-      "contact": "81877889900"
+      "contact": "81877889900",
+      "status" : false,
     },
     {
       "id": 7,
@@ -67,7 +59,8 @@ const ListUser = [
       "name": "Yusuf Hidayat",
       "location": "Banjarsari, Surakarta, Jawa Tengah, 57139",
       "number": "+62 823-4455-6677",
-      "contact": "82344556677"
+      "contact": "82344556677",
+      "status" : true,
     },
     {
       "id": 8,
@@ -75,7 +68,8 @@ const ListUser = [
       "name": "Lina Marlina",
       "location": "Padang Timur, Padang, Sumatera Barat, 25129",
       "number": "+62 812-5566-7788",
-      "contact": "81255667788"
+      "contact": "81255667788",
+      "status" : false,
     },
     {
       "id": 9,
@@ -83,7 +77,8 @@ const ListUser = [
       "name": "Hendra Saputra",
       "location": "Denpasar Timur, Denpasar, Bali, 80237",
       "number": "+62 817-6677-8899",
-      "contact": "81766778899"
+      "contact": "81766778899",
+      "status" : false,
     },
     {
       "id": 10,
@@ -91,7 +86,8 @@ const ListUser = [
       "name": "Citra Ayuningtyas",
       "location": "Medan Selayang, Medan, Sumatera Utara, 20131",
       "number": "+62 816-7788-9901",
-      "contact": "81677889901"
+      "contact": "81677889901",
+      "status" : false,
     },
     {
       "id": 11,
@@ -99,7 +95,8 @@ const ListUser = [
       "name": "Sora Yudhistira Santosa",
       "location": "Ciputat, Tangerang Selatan, Banten, 15412",
       "number": "+62 815-8899-0012",
-      "contact": "81588990012"
+      "contact": "81588990012",
+      "status" : true,
     }
   ]
   
